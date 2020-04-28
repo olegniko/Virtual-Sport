@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test">
+    <listeners>
+        <listener class-name="helper.ListenerSuite"></listener>
+        <listener class-name="helper.ListenerTest"></listener>
+
+    </listeners>
+    <test name="LoginPopupAppearenceFromBanner">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupAppearenceFromBanner">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupElementsFromBanner">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupElementsFromBanner">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupIncorrectLoginFromBanner">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupIncorrectLoginFromBanner">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupCorrectLoginFromBanner">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupCorrectLoginFromBanner">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupAppearenceFromLobby">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupAppearenceFromLobby">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupElementsFromLobby">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupElementsFromLobby">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupIncorrectLoginFromLobby">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupIncorrectLoginFromLobby">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupCorrectLoginFromLobby">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupCorrectLoginFromLobby">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupAppearenceFromCategory">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupAppearenceFromCategory">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupElementsFromCategory">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupElementsFromCategory">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupIncorrectLoginFromCategory">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupIncorrectLoginFromCategory">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupCorrectLoginFromCategory">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupCorrectLoginFromCategory">
+            </class>
+        </classes>
+    </test>-->
+    <test name="LoginPopupLinks">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupActions">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupIncorrectLoginElements">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupIncorrectLoginElements">
+            </class>
+        </classes>
+    </test>
+
+</suite>
+
+
+
+
