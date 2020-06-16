@@ -29,19 +29,19 @@ public class LoginHeaderCorrectLogin {
     }
 
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void myAccountButtonEnabledTest() throws Exception {
         assertTrue(casinoPage.getMyAccountButtonHeaderElement().isDisplayed());
         assertTrue(casinoPage.getMyAccountButtonHeaderElement().isEnabled());
     }
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void depositButtonEnabledTest() throws Exception {
         assertTrue(casinoPage.getDepositButtonHeaderElement().isDisplayed());
         assertTrue(casinoPage.getDepositButtonHeaderElement().isEnabled());
     }
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void logoutButtonEnabledTest() throws Exception {
         assertTrue(casinoPage.getLogoutButtonHeaderElement().isDisplayed());
         assertTrue(casinoPage.getLogoutButtonHeaderElement().isEnabled());

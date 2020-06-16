@@ -10,7 +10,7 @@
     <test name="HeaderElements">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -21,7 +21,7 @@
     <test name="LoginHeaderElements">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -32,7 +32,7 @@
     <test name="LoginHeaderIncorrectLogin">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -43,7 +43,7 @@
     <test name="LoginHeaderCorrectLogin">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -54,7 +54,7 @@
     <test name="LoginPopupAppearenceFromBanner">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -65,7 +65,7 @@
     <test name="LoginPopupElementsFromBanner">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -76,7 +76,7 @@
     <test name="LoginPopupIncorrectLoginFromBanner">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -87,7 +87,7 @@
     <test name="LoginPopupCorrectLoginFromBanner">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -98,7 +98,7 @@
     <test name="LoginPopupAppearenceFromLobby">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -109,7 +109,7 @@
     <test name="LoginPopupElementsFromLobby">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -120,7 +120,7 @@
     <test name="LoginPopupIncorrectLoginFromLobby">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -131,7 +131,7 @@
     <test name="LoginPopupCorrectLoginFromLobby">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -143,7 +143,7 @@
     <test name="BannersUnlogged">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -154,7 +154,7 @@
     <test name="BannersLogged">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -165,7 +165,7 @@
     <test name="BannersUnloggedActions">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -176,7 +176,7 @@
     <test name="BannersLoggedActions">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -188,7 +188,7 @@
     <test name="Footer">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -199,7 +199,7 @@
     <test name="FooterLinks">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -210,29 +210,29 @@
     <test name="BetGamesTvReal">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
-            <class name="info.BetGamesTvReal">
+            <class name="info.BetradarReal">
             </class>
         </classes>
     </test>
     <test name="BetGamesTvDemo">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
-            <class name="info.BetGamesTvDemo">
+            <class name="info.BetradarDemo">
             </class>
         </classes>
     </test>
     <test name="Page404">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -243,7 +243,7 @@
     <test name="IncorrectLoginByCorrectData">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -255,7 +255,7 @@
     <test name="LoginPopupLinks">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>
@@ -266,7 +266,7 @@
     <test name="LoginPopupIncorrectLoginElement">
         <groups>
             <run>
-                <include name="CUR2"/>
+                <include name="EN"/>
             </run>
         </groups>
         <classes>

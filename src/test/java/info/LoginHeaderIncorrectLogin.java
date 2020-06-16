@@ -27,7 +27,7 @@ public class LoginHeaderIncorrectLogin {
     }
 
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void incorectLoginTest() throws Exception {
         casinoPage.login(exampleBundle.getString("incorrect_login"), exampleBundle.getString("correct_password"));
         casinoPage.closeIncorectLoginMessage();
@@ -36,7 +36,7 @@ public class LoginHeaderIncorrectLogin {
 
     }
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void incorectPasswordTest() throws Exception {
         casinoPage.login(exampleBundle.getString("correct_login"), exampleBundle.getString("incorrect_password"));
         casinoPage.closeIncorectLoginMessage();
@@ -44,7 +44,7 @@ public class LoginHeaderIncorrectLogin {
         casinoPage.clearField(casinoPage.getPasswordFieldHeaderElement());
     }
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void incorectLoginAndPasswordTest() throws Exception {
         casinoPage.login(exampleBundle.getString("incorrect_login"), exampleBundle.getString("incorrect_password"));
         casinoPage.closeIncorectLoginMessage();
@@ -52,7 +52,7 @@ public class LoginHeaderIncorrectLogin {
         casinoPage.clearField(casinoPage.getPasswordFieldHeaderElement());
     }
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void blankLoginAndPasswordTest() throws Exception {
         casinoPage.login("", "");
         casinoPage.closeIncorectLoginMessage();
@@ -60,7 +60,7 @@ public class LoginHeaderIncorrectLogin {
         casinoPage.clearField(casinoPage.getPasswordFieldHeaderElement());
     }
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void blankLoginTest() throws Exception {
         casinoPage.login("", exampleBundle.getString("correct_password"));
         casinoPage.closeIncorectLoginMessage();
@@ -68,7 +68,7 @@ public class LoginHeaderIncorrectLogin {
         casinoPage.clearField(casinoPage.getPasswordFieldHeaderElement());
     }
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void blankPasswordTest() throws Exception {
         casinoPage.login(exampleBundle.getString("correct_login"), "");
         casinoPage.closeIncorectLoginMessage();

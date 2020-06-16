@@ -36,14 +36,14 @@ public class LoginPopupActions {
 
 
 
-    @Test(groups = { "CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void clickLostPasswordTest() throws Exception {
         casinoPage.clickElement(casinoPage.getLostPasswordLoginPopupElement());
         String url = casinoPage.getUrl();
         assertEquals(url, exampleBundle.getString("forgot_password_url"));
     }
 
-    @Test(groups = { "CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void clickJoinNowTest() throws Exception {
         casinoPage.clickElement(casinoPage.getJoinNowButtonPopupElement());
         casinoPage.driverWait(2);
@@ -53,7 +53,7 @@ public class LoginPopupActions {
 
 
 
-    @Test(groups = { "CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void clickHereIncorrectLoginTest() throws Exception {
         casinoPage.loginByPopup(exampleBundle.getString("incorrect_login"), exampleBundle.getString("correct_password"));
         casinoPage.clickElement(casinoPage.getHereLinkIncorrectLoginPopupElement());
@@ -62,7 +62,7 @@ public class LoginPopupActions {
         assertEquals(url, exampleBundle.getString("forgot_password_url"));
     }
 
-    @Test(groups = { "CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void clickCustomSupportTeamIncorrectLoginTest() throws Exception {
         casinoPage.loginByPopup(exampleBundle.getString("incorrect_login"), exampleBundle.getString("correct_password"));
         casinoPage.driverWait(2);

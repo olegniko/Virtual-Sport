@@ -31,14 +31,14 @@ public class LoginPopupIncorrectLoginByCorrectData {
     }
 
 
-    @Test(groups = {"CUR2"},alwaysRun = true)
+    @Test(groups = {"EN", "RU", "PL","EC"},alwaysRun = true)
     public void corectLoginByAccountNumberTest() throws Exception {
         casinoPage.loginByPopup(exampleBundle.getString("correct_login_account_number"), exampleBundle.getString("correct_password"));
         assertEquals(casinoPage.getTextIncorrectLoginMessagePopupElement(),exampleBundle.getString("incorrect_login_by_correct_data_message"));
         casinoPage.closeLoginPopup();
     }
 
-    @Test(groups = {"CUR2"},alwaysRun = true)
+    @Test(groups = {"EN", "RU", "PL","EC"},alwaysRun = true)
     public void corectLoginByEmailTest() throws Exception {
         casinoPage.loginByPopup(exampleBundle.getString("correct_login_email"), exampleBundle.getString("correct_password"));
         String parentWindow = casinoPage.getParentWindow();

@@ -36,7 +36,7 @@ public class BannersUnloggedActions {
     }
 
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void bannerOpenGameActionTest() throws Exception {
         casinoPage.clickBanner(casinoPage.getBannerAutotestOpenGameElement());
         assertTrue(casinoPage.getLoginPopupElement().isDisplayed());

@@ -32,7 +32,7 @@ public class BannersLogged {
 
 
 
-    @Test(groups = { "CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void bannerOpenGamePresenseTest() throws Exception {
         casinoPage.waitForBanner(casinoPage.getBannerAutotestOpenGameElement());
         assertTrue(casinoPage.getBannerAutotestOpenGameElement().isDisplayed());

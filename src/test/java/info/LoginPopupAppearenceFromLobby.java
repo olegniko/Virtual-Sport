@@ -28,7 +28,7 @@ public class LoginPopupAppearenceFromLobby {
 
 
 
-    @Test(groups = { "CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void loginPopupAppearenceBetGamesTVTest() throws Exception {
         casinoPage.clickElement(casinoPage.getBetradarGameElement());
         assertTrue(casinoPage.getLoginPopupElement().isDisplayed());

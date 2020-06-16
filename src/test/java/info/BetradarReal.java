@@ -11,7 +11,7 @@ import static helper.ListenerSuite.suiteOfTests;
 import static org.testng.Assert.assertTrue;
 
 
-public class BetGamesTvReal {
+public class BetradarReal {
 
     BetGamesTvGame betGamesTvGame;
   /*  String oldBalanceInHeader;
@@ -55,7 +55,7 @@ public class BetGamesTvReal {
     }
 
 
-    @Test(groups = {"CUR2"}, priority = 1)
+     @Test(groups = {"EN", "RU", "PL","EC"}, priority = 1)
     public void crossInGameBetGamesTvRealTest() throws Exception {
         Double oldBalanceInHeader;
         String bet;
@@ -81,7 +81,7 @@ public class BetGamesTvReal {
         assertTrue(newBalanceInHeader.equals(oldBalanceInHeader));
     }
 
-    @Test(groups = {"CUR2"}, priority = 2)
+    @Test(groups = {"EN", "RU", "PL","EC"}, priority = 2)
     public void betOnRedSpeedyRealTest() throws Exception {
         Double oldBalanceInHeader;
         String bet;

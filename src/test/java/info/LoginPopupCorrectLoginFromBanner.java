@@ -27,7 +27,7 @@ public class LoginPopupCorrectLoginFromBanner {
     }
 
 
-    @Test(groups = { "CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void loginBetGamesTvTest() throws Exception {
         casinoPage.clickElement(casinoPage.getBannerAutotestOpenGameElement());
         casinoPage.correctLoginByPopup(exampleBundle.getString("correct_login"), exampleBundle.getString("correct_password"));

@@ -37,7 +37,7 @@ public class BannersLoggedActions {
 
 
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void bannerOpenGameActionTest() throws Exception {
         casinoPage.clickBanner(casinoPage.getBannerAutotestOpenGameElement());
         casinoPage.driverWait(10);

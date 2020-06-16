@@ -10,7 +10,7 @@ import static helper.ListenerSuite.suiteOfTests;
 import static org.testng.Assert.assertTrue;
 
 
-public class BetGamesTvDemo {
+public class BetradarDemo {
 
 
     BetGamesTvGame betGamesTvGame;
@@ -33,7 +33,7 @@ public class BetGamesTvDemo {
     }
 
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void loginPopupBetGamesTvDemoTest() throws Exception {
         betGamesTvGame.clickElement(betGamesTvGame.getBetradarGameElement());
         assertTrue(betGamesTvGame.isElementClickable(betGamesTvGame.getLoginPopupElement()));

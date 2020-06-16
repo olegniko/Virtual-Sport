@@ -31,48 +31,48 @@ public class LoginPopupElementsFromLobby {
     }
 
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void loginPopupTitleTest() throws Exception {
         assertTrue(casinoPage.getLoginPopupTitleElement().isDisplayed());
         assertTrue(casinoPage.getLoginPopupTitleElement().isEnabled());
         assertEquals(casinoPage.getTextLoginPopupTitleElement(), exampleBundle.getString("login_title_popup"));
     }
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void loginFieldPopupLoginTest() throws Exception {
         assertTrue(casinoPage.getLoginFieldLoginPopupElement().isDisplayed());
         assertTrue(casinoPage.getLoginFieldLoginPopupElement().isEnabled());
         assertEquals(casinoPage.getTextLoginFieldLoginPopupElement(), exampleBundle.getString("login_field_popup"));
     }
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void passwordFieldPopupLoginTest() throws Exception {
         assertTrue(casinoPage.getPasswordFieldLoginPopupElement().isDisplayed());
         assertTrue(casinoPage.getPasswordFieldLoginPopupElement().isEnabled());
         assertEquals(casinoPage.getTextPasswordFieldLoginPopupElement(), exampleBundle.getString("password_field_popup"));
     }
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void loginButtonPopupLoginTest() throws Exception {
         assertTrue(casinoPage.getLoginButtonPopupElement().isDisplayed());
         assertTrue(casinoPage.getLoginButtonPopupElement().isEnabled());
         assertEquals(casinoPage.getTextLoginButtonPopupElement(), exampleBundle.getString("login_button_popup"));
     }
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void joinNowButtonPopupLoginTest() throws Exception {
         assertTrue(casinoPage.getJoinNowButtonPopupElement().isDisplayed());
         assertTrue(casinoPage.getJoinNowButtonPopupElement().isEnabled());
         assertEquals(casinoPage.getTextJoinNowButtonPopupElement(), exampleBundle.getString("join_now_button_popup"));
     }
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void joinNowLinkPopupLoginTest() throws Exception {
         assertTrue(casinoPage.getJoinNowButtonPopupElement().isDisplayed());
         assertTrue(casinoPage.getJoinNowButtonPopupElement().isEnabled());
     }
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void lostPasswordPopupLoginTest() throws Exception {
         assertTrue(casinoPage.getLostPasswordLoginPopupElement().isDisplayed());
         assertTrue(casinoPage.getLostPasswordLoginPopupElement().isEnabled());

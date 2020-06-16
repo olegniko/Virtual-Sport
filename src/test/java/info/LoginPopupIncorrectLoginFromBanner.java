@@ -28,7 +28,7 @@ public class LoginPopupIncorrectLoginFromBanner {
     }
 
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void incorectLoginTest() throws Exception {
         casinoPage.clickElement(casinoPage.getBannerAutotestOpenGameElement());
         casinoPage.loginByPopup(exampleBundle.getString("incorrect_login"), exampleBundle.getString("correct_password"));
@@ -36,7 +36,7 @@ public class LoginPopupIncorrectLoginFromBanner {
         casinoPage.closeLoginPopup();
     }
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void incorectPasswordTest() throws Exception {
         casinoPage.clickElement(casinoPage.getBannerAutotestOpenGameElement());
         casinoPage.loginByPopup(exampleBundle.getString("correct_login"), exampleBundle.getString("incorrect_password"));
@@ -44,7 +44,7 @@ public class LoginPopupIncorrectLoginFromBanner {
         casinoPage.closeLoginPopup();
     }
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void incorectLoginAndPasswordTest() throws Exception {
         casinoPage.clickElement(casinoPage.getBannerAutotestOpenGameElement());
         casinoPage.loginByPopup(exampleBundle.getString("incorrect_login"), exampleBundle.getString("incorrect_password"));
@@ -52,7 +52,7 @@ public class LoginPopupIncorrectLoginFromBanner {
         casinoPage.closeLoginPopup();
     }
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void blankLoginAndPasswordTest() throws Exception {
         casinoPage.clickElement(casinoPage.getBannerAutotestOpenGameElement());
         casinoPage.loginByPopup("", "");
@@ -60,7 +60,7 @@ public class LoginPopupIncorrectLoginFromBanner {
         casinoPage.closeLoginPopup();
     }
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void blankLoginTest() throws Exception {
         casinoPage.clickElement(casinoPage.getBannerAutotestOpenGameElement());
         casinoPage.loginByPopup("", exampleBundle.getString("correct_password"));
@@ -68,7 +68,7 @@ public class LoginPopupIncorrectLoginFromBanner {
         casinoPage.closeLoginPopup();
     }
 
-    @Test(groups = {"CUR2"})
+    @Test(groups = {"EN", "RU", "PL","EC"})
     public void blankPasswordTest() throws Exception {
         casinoPage.clickElement(casinoPage.getBannerAutotestOpenGameElement());
         casinoPage.loginByPopup(exampleBundle.getString("correct_login"), "");

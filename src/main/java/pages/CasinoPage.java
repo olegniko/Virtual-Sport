@@ -68,7 +68,6 @@ public class CasinoPage extends MainPage {
 
     @FindBy(xpath = "//slick//parent::div//a[@ng-click='banner.bannerAction()']")
     protected WebElement bannerAutotestOpenGameElement;
-
     @FindBy(xpath = "//virtual-sports-game//span[normalize-space(text()) = 'oleg Autotest Betradar']")
     protected WebElement betradarGameElement;
     @FindBy(xpath = "//virtual-sports-game//span[normalize-space(text()) = 'oleg Autotest Betradar']")
@@ -132,15 +131,13 @@ public class CasinoPage extends MainPage {
     public WebElement getBalanceNumberHeaderElement() { return balanceNumberHeaderElement; }
     public WebElement getBalanceCurrencyHeaderElement() { return balanceCurrencyHeaderElement; }
 
-
     public WebElement getBannerAutotestOpenGameElement() { return bannerAutotestOpenGameElement; }
-
+    public WebElement getMgGameElement() { return mgGameElement; }
+    public WebElement getBetradarGameElement() {return betradarGameElement; }
 
     public WebElement getNotFoundTitle404Element() { return notFoundTitle404Element; }
     public WebElement getNotFoundBody404Element() { return notFoundBody404Element; }
     public WebElement getNotFoundButton404Element() { return notFoundButton404Element; }
-
-    public WebElement getBetradarGameElement() {return betradarGameElement; }
 
     public WebElement getLoginRequiredElement() { return loginRequiredElement; }
     public WebElement getPasswordRequiredElement() { return passwordRequiredElement; }
