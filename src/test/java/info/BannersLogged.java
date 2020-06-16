@@ -33,7 +33,7 @@ public class BannersLogged {
 
 
     @Test(groups = { "CUR2"})
-    public void bannerNonePresenseTest() throws Exception {
+    public void bannerOpenGamePresenseTest() throws Exception {
         casinoPage.waitForBanner(casinoPage.getBannerAutotestOpenGameElement());
         assertTrue(casinoPage.getBannerAutotestOpenGameElement().isDisplayed());
     }

@@ -128,9 +128,9 @@ public class MainPage extends BasePage {
 
     @FindBy(xpath = "//div[@class='grid-footer']//em[@class='sprite-rgt-donor']")
     protected WebElement rgtDonorIconElement;
-    @FindBy(xpath = "//div[@class='grid-footer']//em[@class='sprite-social_facebook']")
+    @FindBy(xpath = "//div[@class='grid-footer']//em[@class='sprite-social_f']")
     protected WebElement facebookIconElement;
-    @FindBy(xpath = "//div[@class='grid-footer']//em[@class='sprite-social_twitter']")
+    @FindBy(xpath = "//div[@class='grid-footer']//em[@class='sprite-social_t']")
     protected WebElement twitterIconElement;
     @FindBy(xpath = "//div[@class='grid-footer']//em[@class='sprite-age-restriction-18']")
     protected WebElement ageRestrictionIconElement;

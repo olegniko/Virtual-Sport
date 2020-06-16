@@ -38,7 +38,7 @@ public class BannersLoggedActions {
 
 
     @Test(groups = {"CUR2"})
-    public void bannerNoneActionTest() throws Exception {
+    public void bannerOpenGameActionTest() throws Exception {
         casinoPage.clickBanner(casinoPage.getBannerAutotestOpenGameElement());
         casinoPage.driverWait(10);
         assertTrue(casinoPage.getCrossInGameElement().isDisplayed());

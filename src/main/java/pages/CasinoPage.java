@@ -58,11 +58,11 @@ public class CasinoPage extends MainPage {
     @FindBy(xpath = "//span[@data-punter-balance-type='main']//ancestor::a")
     protected WebElement balanceCurrencyHeaderElement;
 
-    @FindBy(xpath = "//div[contains(@class,'content not-found-module')]//h2")
+    @FindBy(xpath = "//section[contains(@class,'not-found')]//h2")
     protected WebElement notFoundTitle404Element;
-    @FindBy(xpath = "//div[contains(@class,'content not-found-module')]//p")
+    @FindBy(xpath = "//section[contains(@class,'not-found')]//p")
     protected WebElement notFoundBody404Element;
-    @FindBy(xpath = "//div[contains(@class,'content not-found-module')]//button")
+    @FindBy(xpath = "//section[contains(@class,'not-found')]//a")
     protected WebElement notFoundButton404Element;
 
 
@@ -71,6 +71,8 @@ public class CasinoPage extends MainPage {
 
     @FindBy(xpath = "//virtual-sports-game//span[normalize-space(text()) = 'oleg Autotest Betradar']")
     protected WebElement betradarGameElement;
+    @FindBy(xpath = "//virtual-sports-game//span[normalize-space(text()) = 'oleg Autotest Betradar']")
+    protected WebElement mgGameElement;
 
     @FindBy(xpath = "//div[@id='login-popup']//div[contains(@class,'gi-login-form')]")
     protected WebElement loginPopupElement;
@@ -107,7 +109,7 @@ public class CasinoPage extends MainPage {
     @FindBy(xpath = "//div[@class='tooltip invalid-tooltip'][2]")
     protected WebElement passwordRequiredElement;
 
-    @FindBy(xpath = "//div[contains(@class,'gi-modal-header__close')]")
+    @FindBy(xpath = "//launcher-popup//div[contains(@class,'gi-modal-header__close')]")
     protected WebElement crossInGameElement;
     @FindBy(xpath = "//iframe[contains(@class,'game-popup__container__iframe')]")
     protected WebElement iFrameGame;

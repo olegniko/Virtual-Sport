@@ -99,11 +99,11 @@ public class FooterElements {
         assertTrue(casinoPage.getManCityElement().isEnabled());
     }
 
-    @Test(groups = {"CUR2"})
+   /* @Test(groups = {"CUR2"})
     public void sevillaEnabledTest() throws Exception {
         assertTrue(casinoPage.getSevillaElement().isDisplayed());
         assertTrue(casinoPage.getSevillaElement().isEnabled());
-    }
+    }*/
 
     @Test(groups = {"CUR2"})
     public void gironaEnabledTest() throws Exception {

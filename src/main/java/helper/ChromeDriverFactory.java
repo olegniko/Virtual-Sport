@@ -22,7 +22,6 @@ public class ChromeDriverFactory extends WebDriverFactory {
         options.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
         options.setCapability("enableVNC", true);
         options.setCapability("enableVideo", false);
-        options.addArguments("--disable-dev-shm-usage");
         RemoteWebDriver driver = null;
         try {
             driver = new RemoteWebDriver(URI.create(System.getProperty("selenoidUrl")).toURL(), options);

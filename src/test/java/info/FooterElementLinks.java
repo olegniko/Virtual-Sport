@@ -106,12 +106,12 @@ public class FooterElementLinks {
         assertEquals(url, exampleBundle.getString("man_city_url"));
     }
 
-    @Test(groups = {"CUR2"})
+   /* @Test(groups = {"CUR2"})
     public void sevilyaLinkTest() throws Exception {
         casinoPage.clickElement(casinoPage.getSevillaElement());
         String url = casinoPage.getNextTabUrlPage();
         assertEquals(url, exampleBundle.getString("sevilya_url"));
-    }
+    }*/
 
     @Test(groups = {"CUR2"})
     public void gironaLinkTest() throws Exception {

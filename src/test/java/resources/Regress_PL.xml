@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name=" CUR2 chrome Regress">
+    <listeners>
+        <listener class-name="helper.ListenerSuite"></listener>
+        <listener class-name="helper.ListenerTest"></listener>
+
+    </listeners>
+    <test name="HeaderElements">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.HeaderElements">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginHeaderElements">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginHeaderElements">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginHeaderIncorrectLogin">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginHeaderIncorrectLogin">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginHeaderCorrectLogin">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginHeaderCorrectLogin">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupAppearenceFromBanner">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupAppearenceFromBanner">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupElementsFromBanner">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupElementsFromBanner">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupIncorrectLoginFromBanner">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupIncorrectLoginFromBanner">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupCorrectLoginFromBanner">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupCorrectLoginFromBanner">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupAppearenceFromLobby">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupAppearenceFromLobby">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupElementsFromLobby">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupElementsFromLobby">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupIncorrectLoginFromLobby">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupIncorrectLoginFromLobby">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupCorrectLoginFromLobby">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupCorrectLoginFromLobby">
+            </class>
+        </classes>
+    </test>
+
+    <test name="BannersUnlogged">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.BannersUnlogged">
+            </class>
+        </classes>
+    </test>
+    <test name="BannersLogged">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.BannersLogged">
+            </class>
+        </classes>
+    </test>
+    <test name="BannersUnloggedActions">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.BannersUnloggedActions">
+            </class>
+        </classes>
+    </test>
+    <test name="BannersLoggedActions">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.BannersLoggedActions">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Footer">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.FooterElements">
+            </class>
+        </classes>
+    </test>
+    <test name="FooterLinks">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.FooterElementLinks">
+            </class>
+        </classes>
+    </test>
+    <test name="BetGamesTvReal">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.BetGamesTvReal">
+            </class>
+        </classes>
+    </test>
+    <test name="BetGamesTvDemo">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.BetGamesTvDemo">
+            </class>
+        </classes>
+    </test>
+    <test name="Page404">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.Page404">
+            </class>
+        </classes>
+    </test>
+    <test name="IncorrectLoginByCorrectData">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupIncorrectLoginByCorrectData">
+            </class>
+        </classes>
+
+    </test>
+    <test name="LoginPopupLinks">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupActions">
+            </class>
+        </classes>
+    </test>
+    <test name="LoginPopupIncorrectLoginElement">
+        <groups>
+            <run>
+                <include name="CUR2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="info.LoginPopupIncorrectLoginElements">
+            </class>
+        </classes>
+    </test>
+
+</suite>
+
+
+
+

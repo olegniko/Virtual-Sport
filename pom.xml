@@ -26,31 +26,41 @@
     <profiles>
 
         <profile>
-            <id>EN</id>
+            <id>EN_Chrome</id>
             <properties>
                 <browser>chrome</browser>
-                <suite>Regress_CUR2</suite>
+                <suite>Regress_EN</suite>
                 <locale>en</locale>
                 <localeServer>cur</localeServer>
                 <selenoidUrl>${selenoid.url.address.global}</selenoidUrl>
             </properties>
         </profile>
         <profile>
-            <id>PL</id>
+            <id>PL_Chrome</id>
             <properties>
                 <browser>chrome</browser>
-                <suite>Regress_CUR2</suite>
+                <suite>Regress_PL</suite>
                 <locale>pl</locale>
                 <localeServer>cur</localeServer>
                 <selenoidUrl>${selenoid.url.address.global}</selenoidUrl>
             </properties>
         </profile>
         <profile>
-            <id>EC</id>
+            <id>EC_Chrome</id>
             <properties>
                 <browser>chrome</browser>
-                <suite>Regress_CUR2</suite>
+                <suite>Regress_EC</suite>
                 <locale>ec</locale>
+                <localeServer>cur</localeServer>
+                <selenoidUrl>${selenoid.url.address.global}</selenoidUrl>
+            </properties>
+        </profile>
+        <profile>
+            <id>RU_Chrome</id>
+            <properties>
+                <browser>chrome</browser>
+                <suite>Regress_RU</suite>
+                <locale>su</locale>
                 <localeServer>cur</localeServer>
                 <selenoidUrl>${selenoid.url.address.global}</selenoidUrl>
             </properties>
